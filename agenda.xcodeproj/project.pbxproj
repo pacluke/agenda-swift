@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,10 @@
 		C176380F2520300300173471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C176380D2520300300173471 /* LaunchScreen.storyboard */; };
 		C176381A2520300300173471 /* agendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17638192520300300173471 /* agendaTests.swift */; };
 		C17638252520300300173471 /* agendaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17638242520300300173471 /* agendaUITests.swift */; };
+		C1BC0D132520C45C00862342 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D122520C45C00862342 /* Event.swift */; };
+		C1BC0D162521462D00862342 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D152521462D00862342 /* APIManager.swift */; };
+		C1BC0D1825214B9200862342 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D1725214B9200862342 /* APIService.swift */; };
+		C1BC0D1A252155A500862342 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D19252155A500862342 /* People.swift */; };
 		E80838C9A717248A977506DE /* Pods_agendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD38D307228A312147087C6 /* Pods_agendaTests.framework */; };
 		F5021F071786B304031A175F /* Pods_agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A543C48B0A4E2688302E0 /* Pods_agenda.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +62,10 @@
 		C17638202520300300173471 /* agendaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = agendaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17638242520300300173471 /* agendaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agendaUITests.swift; sourceTree = "<group>"; };
 		C17638262520300300173471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BC0D122520C45C00862342 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C1BC0D152521462D00862342 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C1BC0D1725214B9200862342 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C1BC0D19252155A500862342 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		CAAE75F97603A405D415DC0F /* Pods_agendaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agendaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4320845FC42A909EA7C93F5 /* Pods-agendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaTests.release.xcconfig"; path = "Target Support Files/Pods-agendaTests/Pods-agendaTests.release.xcconfig"; sourceTree = "<group>"; };
 		EFD38D307228A312147087C6 /* Pods_agendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,7 +119,6 @@
 				680D96A66D3C100ACE8E91C2 /* Pods-agendaUITests.debug.xcconfig */,
 				282860BCBED2C8419E7664D4 /* Pods-agendaUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,8 @@
 		C176380125202FFC00173471 /* agenda */ = {
 			isa = PBXGroup;
 			children = (
+				C1BC0D142521459700862342 /* Service */,
+				C1BC0D112520C38000862342 /* Models */,
 				C176380225202FFC00173471 /* AppDelegate.swift */,
 				C176380425202FFC00173471 /* SceneDelegate.swift */,
 				C176380625202FFC00173471 /* ViewController.swift */,
@@ -167,6 +176,24 @@
 				C17638262520300300173471 /* Info.plist */,
 			);
 			path = agendaUITests;
+			sourceTree = "<group>";
+		};
+		C1BC0D112520C38000862342 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1BC0D122520C45C00862342 /* Event.swift */,
+				C1BC0D19252155A500862342 /* People.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C1BC0D142521459700862342 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C1BC0D152521462D00862342 /* APIManager.swift */,
+				C1BC0D1725214B9200862342 /* APIService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,9 +417,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1BC0D132520C45C00862342 /* Event.swift in Sources */,
 				C176380725202FFC00173471 /* ViewController.swift in Sources */,
+				C1BC0D162521462D00862342 /* APIManager.swift in Sources */,
 				C176380325202FFC00173471 /* AppDelegate.swift in Sources */,
+				C1BC0D1825214B9200862342 /* APIService.swift in Sources */,
 				C176380525202FFC00173471 /* SceneDelegate.swift in Sources */,
+				C1BC0D1A252155A500862342 /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
