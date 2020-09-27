@@ -6,6 +6,8 @@ target 'agenda' do
   use_frameworks!
 
   # Pods for agenda
+  pod 'Alamofire'
+  pod 'Hero'
 
   target 'agendaTests' do
     inherit! :search_paths
