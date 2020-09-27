@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9BA1AAF1577A70A6317915CE8C40DB /* Pods-agendaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA401A977DFBAC858568A60A7B31271 /* Pods-agendaUITests-dummy.m */; };
+		3B65DC034AD82507C7CCB0AA646E92F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		438FE27CD94C9AA2A84E25BE0663BB20 /* Pods-agendaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A15DC3EEC74F2B39446C1C7881C544D /* Pods-agendaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92DD382EDC6001AFC3546833F1AB2EA5 /* Pods-agenda-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C253F49C79AB9DE17223A79167C85D /* Pods-agenda-dummy.m */; };
+		9727A13C7542EBA1DB88AC1E1B12D1B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BC3F2B3BC53056909840A0D5373936BE /* Pods-agendaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285E9E411D10DB79EF6FE464B3838D54 /* Pods-agendaTests-dummy.m */; };
+		D66A5E857D1CE8DD06E2054AA9FCB116 /* Pods-agenda-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF97C07677CFFC09E10B5AD7A009E74F /* Pods-agenda-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9E9263052B5B6F66FF25B9485FB1D8 /* Pods-agendaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131DDAA87D3DEE81F7688F7788248AD2 /* Pods-agendaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F834E6F673D355DD9102E7D9B812D319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C336336DA316D70E0EF20E15B8BEB9A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843893DEFE303EFBC6472C7968F3E7A8;
+			remoteInfo = "Pods-agenda";
+		};
+		C498902E420E198D9BE2498A334F9456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843893DEFE303EFBC6472C7968F3E7A8;
+			remoteInfo = "Pods-agenda";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F9E47715165ED4D0A7B3156BD55045 /* Pods-agendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agendaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0977311D13F395B9A4100FFE5E98E81F /* Pods-agenda-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agenda-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BA401A977DFBAC858568A60A7B31271 /* Pods-agendaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-agendaUITests-dummy.m"; sourceTree = "<group>"; };
+		131DDAA87D3DEE81F7688F7788248AD2 /* Pods-agendaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-agendaTests-umbrella.h"; sourceTree = "<group>"; };
+		19D40D43A3D6C51E5C7231187324AD9E /* Pods-agendaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agendaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CE173D6305B5DBF7B67D6AA60F1CE7F /* Pods-agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		285E9E411D10DB79EF6FE464B3838D54 /* Pods-agendaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-agendaTests-dummy.m"; sourceTree = "<group>"; };
+		2A94CA304E88935C98A4E95F3EAF808C /* Pods-agendaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-agendaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B60C8FE97ED18DB6F3B163BD05335B4 /* Pods-agendaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agendaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		409CFE01660FCB763142AB80E2F20871 /* Pods-agendaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agendaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49CF2443EA50C4E4CBB299646C1BB21B /* Pods-agendaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agendaUITests-Info.plist"; sourceTree = "<group>"; };
+		5A15DC3EEC74F2B39446C1C7881C544D /* Pods-agendaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-agendaUITests-umbrella.h"; sourceTree = "<group>"; };
+		6E72D1A4BC08FDD0A933439ACFC7CFC0 /* Pods_agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_agenda.framework; path = "Pods-agenda.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		713D00A3B66FA1F8C40C2B2B39251E93 /* Pods-agendaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agendaTests-Info.plist"; sourceTree = "<group>"; };
+		7D9D7CE297E78A04CD2409D9D28A9D70 /* Pods-agendaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-agendaUITests.modulemap"; sourceTree = "<group>"; };
+		83370084BE2C6D959D1F448151156DB7 /* Pods-agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agenda.release.xcconfig"; sourceTree = "<group>"; };
+		87DEFB0342F2393F757164F58248C154 /* Pods-agendaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-agendaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A64D534703921380F6FCED939FFCA6E /* Pods-agendaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-agendaTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9C253F49C79AB9DE17223A79167C85D /* Pods-agenda-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-agenda-dummy.m"; sourceTree = "<group>"; };
+		CC7D4DE09AEE5B30C1E363357EADE47D /* Pods-agendaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agendaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D51B648E8A321D6871EB848D7D48DA9C /* Pods-agendaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-agendaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD971BF32906D22C4D35BB159E7C9099 /* Pods_agendaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_agendaUITests.framework; path = "Pods-agendaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF97C07677CFFC09E10B5AD7A009E74F /* Pods-agenda-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-agenda-umbrella.h"; sourceTree = "<group>"; };
+		E23190A8279C6B1B1C4CEAB59257A6E2 /* Pods-agenda-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-agenda-Info.plist"; sourceTree = "<group>"; };
+		E3BFDBECD68E51FD96D216B827023B3C /* Pods-agenda-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-agenda-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EEA9C8A4EE6EF30986533DACB1B3F38C /* Pods_agendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_agendaTests.framework; path = "Pods-agendaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDC58CCAEEC5A65133088F61C1D5C5C /* Pods-agenda.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-agenda.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E951C238C2D889C5AB8DC89AA845A24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B65DC034AD82507C7CCB0AA646E92F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FAE127FF6CFC8DE8DB2944E80A03E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9727A13C7542EBA1DB88AC1E1B12D1B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D266D81C856D51F712F0E84E21A598B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F834E6F673D355DD9102E7D9B812D319 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D6DA0F7E946E53EF3F75A6C4691D3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E72D1A4BC08FDD0A933439ACFC7CFC0 /* Pods_agenda.framework */,
+				EEA9C8A4EE6EF30986533DACB1B3F38C /* Pods_agendaTests.framework */,
+				DD971BF32906D22C4D35BB159E7C9099 /* Pods_agendaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A0FF65D336AF1A855D407C3927C3E0 /* Pods-agendaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A64D534703921380F6FCED939FFCA6E /* Pods-agendaTests.modulemap */,
+				D51B648E8A321D6871EB848D7D48DA9C /* Pods-agendaTests-acknowledgements.markdown */,
+				CC7D4DE09AEE5B30C1E363357EADE47D /* Pods-agendaTests-acknowledgements.plist */,
+				285E9E411D10DB79EF6FE464B3838D54 /* Pods-agendaTests-dummy.m */,
+				713D00A3B66FA1F8C40C2B2B39251E93 /* Pods-agendaTests-Info.plist */,
+				131DDAA87D3DEE81F7688F7788248AD2 /* Pods-agendaTests-umbrella.h */,
+				87DEFB0342F2393F757164F58248C154 /* Pods-agendaTests.debug.xcconfig */,
+				06F9E47715165ED4D0A7B3156BD55045 /* Pods-agendaTests.release.xcconfig */,
+			);
+			name = "Pods-agendaTests";
+			path = "Target Support Files/Pods-agendaTests";
+			sourceTree = "<group>";
+		};
+		7B001DCC932CA1F313CC4885FCEDA220 /* Pods-agendaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D9D7CE297E78A04CD2409D9D28A9D70 /* Pods-agendaUITests.modulemap */,
+				2A94CA304E88935C98A4E95F3EAF808C /* Pods-agendaUITests-acknowledgements.markdown */,
+				19D40D43A3D6C51E5C7231187324AD9E /* Pods-agendaUITests-acknowledgements.plist */,
+				0BA401A977DFBAC858568A60A7B31271 /* Pods-agendaUITests-dummy.m */,
+				49CF2443EA50C4E4CBB299646C1BB21B /* Pods-agendaUITests-Info.plist */,
+				5A15DC3EEC74F2B39446C1C7881C544D /* Pods-agendaUITests-umbrella.h */,
+				409CFE01660FCB763142AB80E2F20871 /* Pods-agendaUITests.debug.xcconfig */,
+				3B60C8FE97ED18DB6F3B163BD05335B4 /* Pods-agendaUITests.release.xcconfig */,
+			);
+			name = "Pods-agendaUITests";
+			path = "Target Support Files/Pods-agendaUITests";
+			sourceTree = "<group>";
+		};
+		A38C0134432516966A46C30927F5790A /* Pods-agenda */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC58CCAEEC5A65133088F61C1D5C5C /* Pods-agenda.modulemap */,
+				E3BFDBECD68E51FD96D216B827023B3C /* Pods-agenda-acknowledgements.markdown */,
+				0977311D13F395B9A4100FFE5E98E81F /* Pods-agenda-acknowledgements.plist */,
+				A9C253F49C79AB9DE17223A79167C85D /* Pods-agenda-dummy.m */,
+				E23190A8279C6B1B1C4CEAB59257A6E2 /* Pods-agenda-Info.plist */,
+				DF97C07677CFFC09E10B5AD7A009E74F /* Pods-agenda-umbrella.h */,
+				1CE173D6305B5DBF7B67D6AA60F1CE7F /* Pods-agenda.debug.xcconfig */,
+				83370084BE2C6D959D1F448151156DB7 /* Pods-agenda.release.xcconfig */,
+			);
+			name = "Pods-agenda";
+			path = "Target Support Files/Pods-agenda";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				06D6DA0F7E946E53EF3F75A6C4691D3A /* Products */,
+				F6B467D11ABFA812037501C66589589C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6B467D11ABFA812037501C66589589C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38C0134432516966A46C30927F5790A /* Pods-agenda */,
+				41A0FF65D336AF1A855D407C3927C3E0 /* Pods-agendaTests */,
+				7B001DCC932CA1F313CC4885FCEDA220 /* Pods-agendaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B28D14EFA4048189728BD97599C6974D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A5E857D1CE8DD06E2054AA9FCB116 /* Pods-agenda-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1835DFB898300B835DB3E0F42AE6F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E9263052B5B6F66FF25B9485FB1D8 /* Pods-agendaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E117C148E1DDA73FC27521CD26002B26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438FE27CD94C9AA2A84E25BE0663BB20 /* Pods-agendaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		339ED7E94447B64B0C0B774860AE1014 /* Pods-agendaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6476C901A11813E8190871CEDFE92A7 /* Build configuration list for PBXNativeTarget "Pods-agendaTests" */;
+			buildPhases = (
+				CD1835DFB898300B835DB3E0F42AE6F7 /* Headers */,
+				C2D40FBA34AC6A53972B002FA3709995 /* Sources */,
+				C0FAE127FF6CFC8DE8DB2944E80A03E7 /* Frameworks */,
+				66FF6E2AC1FE0B1CB57FE51486266933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63AD234D0D9B9EE2C50F6796BC3738A8 /* PBXTargetDependency */,
+			);
+			name = "Pods-agendaTests";
+			productName = "Pods-agendaTests";
+			productReference = EEA9C8A4EE6EF30986533DACB1B3F38C /* Pods_agendaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58965A5834AC6B52F6B348E3B59E8538 /* Pods-agendaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BCF198E615F579F43B6BFF3AFC4864 /* Build configuration list for PBXNativeTarget "Pods-agendaUITests" */;
+			buildPhases = (
+				E117C148E1DDA73FC27521CD26002B26 /* Headers */,
+				B33DACFEB0791A39FBD55F185108E98D /* Sources */,
+				D266D81C856D51F712F0E84E21A598B9 /* Frameworks */,
+				BB5CC4B3D5CF07A79813183523415F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76C6AF508A3BFFD537A2BB428235F8D /* PBXTargetDependency */,
+			);
+			name = "Pods-agendaUITests";
+			productName = "Pods-agendaUITests";
+			productReference = DD971BF32906D22C4D35BB159E7C9099 /* Pods_agendaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		843893DEFE303EFBC6472C7968F3E7A8 /* Pods-agenda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3F10696C9D4E11771D096E21257810C /* Build configuration list for PBXNativeTarget "Pods-agenda" */;
+			buildPhases = (
+				B28D14EFA4048189728BD97599C6974D /* Headers */,
+				51E044C0116517C07A52C12ADB759837 /* Sources */,
+				8E951C238C2D889C5AB8DC89AA845A24 /* Frameworks */,
+				23CE53ECAB824B7915F6C1E4BA06D563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-agenda";
+			productName = "Pods-agenda";
+			productReference = 6E72D1A4BC08FDD0A933439ACFC7CFC0 /* Pods_agenda.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 06D6DA0F7E946E53EF3F75A6C4691D3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843893DEFE303EFBC6472C7968F3E7A8 /* Pods-agenda */,
+				339ED7E94447B64B0C0B774860AE1014 /* Pods-agendaTests */,
+				58965A5834AC6B52F6B348E3B59E8538 /* Pods-agendaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CE53ECAB824B7915F6C1E4BA06D563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF6E2AC1FE0B1CB57FE51486266933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5CC4B3D5CF07A79813183523415F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51E044C0116517C07A52C12ADB759837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DD382EDC6001AFC3546833F1AB2EA5 /* Pods-agenda-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33DACFEB0791A39FBD55F185108E98D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9BA1AAF1577A70A6317915CE8C40DB /* Pods-agendaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D40FBA34AC6A53972B002FA3709995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC3F2B3BC53056909840A0D5373936BE /* Pods-agendaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63AD234D0D9B9EE2C50F6796BC3738A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-agenda";
+			target = 843893DEFE303EFBC6472C7968F3E7A8 /* Pods-agenda */;
+			targetProxy = C336336DA316D70E0EF20E15B8BEB9A4 /* PBXContainerItemProxy */;
+		};
+		B76C6AF508A3BFFD537A2BB428235F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-agenda";
+			target = 843893DEFE303EFBC6472C7968F3E7A8 /* Pods-agenda */;
+			targetProxy = C498902E420E198D9BE2498A334F9456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A0ED793D32DE08F30C0FD07903066DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE173D6305B5DBF7B67D6AA60F1CE7F /* Pods-agenda.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agenda/Pods-agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agenda/Pods-agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3653C31CE95DB70C1CDF9E05B622FF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B60C8FE97ED18DB6F3B163BD05335B4 /* Pods-agendaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agendaUITests/Pods-agendaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agendaUITests/Pods-agendaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39D2C2653B928428E4F2E1798F406C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83370084BE2C6D959D1F448151156DB7 /* Pods-agenda.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agenda/Pods-agenda-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agenda/Pods-agenda.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8555A6CC46803F41197071B21B72362F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DEFB0342F2393F757164F58248C154 /* Pods-agendaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agendaTests/Pods-agendaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agendaTests/Pods-agendaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D79E3AFEEBC1598B789919FE7C4FBBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F9E47715165ED4D0A7B3156BD55045 /* Pods-agendaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agendaTests/Pods-agendaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agendaTests/Pods-agendaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAE3C0EA94671C8F6BDFFC48B9FBE36B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409CFE01660FCB763142AB80E2F20871 /* Pods-agendaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-agendaUITests/Pods-agendaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-agendaUITests/Pods-agendaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BCF198E615F579F43B6BFF3AFC4864 /* Build configuration list for PBXNativeTarget "Pods-agendaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE3C0EA94671C8F6BDFFC48B9FBE36B /* Debug */,
+				3653C31CE95DB70C1CDF9E05B622FF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3F10696C9D4E11771D096E21257810C /* Build configuration list for PBXNativeTarget "Pods-agenda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ED793D32DE08F30C0FD07903066DF /* Debug */,
+				39D2C2653B928428E4F2E1798F406C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6476C901A11813E8190871CEDFE92A7 /* Build configuration list for PBXNativeTarget "Pods-agendaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8555A6CC46803F41197071B21B72362F /* Debug */,
+				D79E3AFEEBC1598B789919FE7C4FBBDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

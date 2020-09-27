@@ -1,0 +1,6 @@
+framework module Pods_agendaUITests {
+  umbrella header "Pods-agendaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
