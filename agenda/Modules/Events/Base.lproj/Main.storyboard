@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,50 +27,50 @@
                                             <rect key="frame" x="20" y="11" width="374" height="78"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCJ-Gp-fZT">
-                                                    <rect key="frame" x="86" y="8" width="280" height="23"/>
+                                                    <rect key="frame" x="86" y="8" width="280" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="23" id="GPk-sD-CTX"/>
+                                                        <constraint firstAttribute="height" constant="20" id="GPk-sD-CTX"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6s-GM-g3w">
-                                                    <rect key="frame" x="86" y="39" width="280" height="31"/>
+                                                    <rect key="frame" x="86" y="27" width="280" height="43"/>
                                                     <string key="text">Description description description description description description description description description description description description</string>
-                                                    <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RA7-I4-04h">
-                                                    <rect key="frame" x="0.0" y="0.0" width="78" height="78"/>
+                                                    <rect key="frame" x="0.0" y="-2" width="78" height="82"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 SET" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHO-Qt-Pch">
-                                                            <rect key="frame" x="8" y="18" width="62" height="25.5"/>
-                                                            <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="20"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/09" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHO-Qt-Pch">
+                                                            <rect key="frame" x="8" y="18" width="62" height="28"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaR-fD-HYr">
-                                                            <rect key="frame" x="8" y="46" width="62" height="15"/>
+                                                            <rect key="frame" x="8" y="48.5" width="62" height="15"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="15" id="RfA-1E-vNy"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="uHO-Qt-Pch" secondAttribute="trailing" constant="8" id="6dN-U0-nEw"/>
-                                                        <constraint firstItem="EaR-fD-HYr" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="leading" constant="8" id="G70-bk-Sk7"/>
-                                                        <constraint firstAttribute="height" constant="78" id="Jmg-X6-7SF"/>
-                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="leading" constant="8" id="PVc-SO-cku"/>
-                                                        <constraint firstAttribute="trailing" secondItem="EaR-fD-HYr" secondAttribute="trailing" constant="8" id="Qtp-e1-llm"/>
+                                                        <constraint firstAttribute="height" constant="82" id="Ox3-Ko-CKg"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="leadingMargin" id="QKH-ej-wTi"/>
                                                         <constraint firstItem="EaR-fD-HYr" firstAttribute="top" secondItem="uHO-Qt-Pch" secondAttribute="bottom" constant="2.5" id="ZV3-Kb-a4y"/>
-                                                        <constraint firstAttribute="width" constant="78" id="aVd-oo-YPt"/>
-                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="top" secondItem="RA7-I4-04h" secondAttribute="top" constant="18" id="mjx-Gu-d6X"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="trailing" secondItem="RA7-I4-04h" secondAttribute="trailingMargin" id="kK8-de-78G"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="top" secondItem="RA7-I4-04h" secondAttribute="top" constant="18" id="kiL-kJ-PEk"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="leading" secondItem="EaR-fD-HYr" secondAttribute="leading" id="oUb-9f-X1t"/>
+                                                        <constraint firstAttribute="width" constant="78" id="pCy-8X-aUX"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="trailing" secondItem="EaR-fD-HYr" secondAttribute="trailing" id="vtJ-oR-F9b"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
@@ -77,14 +78,14 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="r6s-GM-g3w" secondAttribute="bottom" constant="8" id="23n-26-JI7"/>
                                                 <constraint firstAttribute="trailing" secondItem="vCJ-Gp-fZT" secondAttribute="trailing" constant="8" id="3sd-iu-vm2"/>
-                                                <constraint firstAttribute="bottom" secondItem="RA7-I4-04h" secondAttribute="bottom" id="Not-dQ-Zud"/>
+                                                <constraint firstItem="RA7-I4-04h" firstAttribute="top" secondItem="8kR-X3-VdB" secondAttribute="topMargin" constant="-10" id="4Qe-pM-4lC"/>
+                                                <constraint firstItem="vCJ-Gp-fZT" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leading" constant="86" id="H1g-K1-6ev"/>
+                                                <constraint firstItem="RA7-I4-04h" firstAttribute="bottom" secondItem="8kR-X3-VdB" secondAttribute="bottomMargin" constant="10" id="IQZ-lc-0qz"/>
                                                 <constraint firstItem="vCJ-Gp-fZT" firstAttribute="top" secondItem="8kR-X3-VdB" secondAttribute="top" constant="8" id="PK4-V8-ffw"/>
+                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leading" constant="86" id="Y9W-pq-QYW"/>
+                                                <constraint firstItem="RA7-I4-04h" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leadingMargin" constant="-8" id="b6e-sv-aOj"/>
                                                 <constraint firstAttribute="trailing" secondItem="r6s-GM-g3w" secondAttribute="trailing" constant="8" id="dFD-JY-W6V"/>
-                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="trailing" constant="8" id="h03-ch-0aW"/>
-                                                <constraint firstItem="vCJ-Gp-fZT" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="trailing" constant="8" id="ks3-Ng-Kad"/>
-                                                <constraint firstItem="RA7-I4-04h" firstAttribute="top" secondItem="8kR-X3-VdB" secondAttribute="top" id="oID-2F-u06"/>
-                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="top" secondItem="vCJ-Gp-fZT" secondAttribute="bottom" constant="8" id="v7Q-Cu-5SW"/>
-                                                <constraint firstItem="RA7-I4-04h" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leading" id="vSN-Kr-lBW"/>
+                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="top" secondItem="vCJ-Gp-fZT" secondAttribute="bottom" constant="-1" id="v7Q-Cu-5SW"/>
                                             </constraints>
                                         </view>
                                     </subviews>
@@ -96,6 +97,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="cardView" destination="8kR-X3-VdB" id="ED2-Jb-N3n"/>
                                     <outlet property="date" destination="uHO-Qt-Pch" id="X75-Op-Qa3"/>
                                     <outlet property="dateView" destination="RA7-I4-04h" id="oES-bS-Ody"/>
                                     <outlet property="hour" destination="EaR-fD-HYr" id="z6O-0H-Yoq"/>
@@ -123,6 +125,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gCC-Ay-loa">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="gainsboro"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -134,4 +139,9 @@
             <point key="canvasLocation" x="608.69565217391312" y="78.348214285714278"/>
         </scene>
     </scenes>
+    <resources>
+        <namedColor name="gainsboro">
+            <color red="0.84705882352941175" green="0.85882352941176465" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

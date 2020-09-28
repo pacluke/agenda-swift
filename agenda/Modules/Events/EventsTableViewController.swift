@@ -24,7 +24,9 @@ class EventsTableViewController: UITableViewController {
     
     private func setupTableView() {
         self.tableView.separatorStyle = .none
-//        self.tableView.backgroundColor = 
+        self.tableView.backgroundColor = ColorPalette.charcoal.color()
+        self.navigationController?.navigationBar.barTintColor = ColorPalette.charcoal.color()
+        self.title = "Events"
         viewModel.fetchData()
     }
     

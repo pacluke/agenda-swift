@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 protocol ColorPaletteProtocol {
-    func toUIColor() -> UIColor
+    func color() -> UIColor
 }
 
 enum ColorPalette: String, ColorPaletteProtocol {
@@ -20,7 +20,7 @@ enum ColorPalette: String, ColorPaletteProtocol {
     case charcoal
     case rasingBlack
     
-    func toUIColor() -> UIColor {
+    func color() -> UIColor {
         return UIColor(named: self.rawValue)!
     }
 }
