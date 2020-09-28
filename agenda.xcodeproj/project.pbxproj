@@ -10,7 +10,6 @@
 		0AD139CB4EF0B580C8B1F833 /* Pods_agendaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAE75F97603A405D415DC0F /* Pods_agendaUITests.framework */; };
 		C176380325202FFC00173471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176380225202FFC00173471 /* AppDelegate.swift */; };
 		C176380525202FFC00173471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176380425202FFC00173471 /* SceneDelegate.swift */; };
-		C176380725202FFC00173471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176380625202FFC00173471 /* ViewController.swift */; };
 		C176380A25202FFC00173471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C176380825202FFC00173471 /* Main.storyboard */; };
 		C176380C2520300300173471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C176380B2520300300173471 /* Assets.xcassets */; };
 		C176380F2520300300173471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C176380D2520300300173471 /* LaunchScreen.storyboard */; };
@@ -20,6 +19,9 @@
 		C1BC0D162521462D00862342 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D152521462D00862342 /* APIManager.swift */; };
 		C1BC0D1825214B9200862342 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D1725214B9200862342 /* APIService.swift */; };
 		C1BC0D1A252155A500862342 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D19252155A500862342 /* People.swift */; };
+		C1BC0D1F2521656500862342 /* EventsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D1E2521656500862342 /* EventsViewModel.swift */; };
+		C1BC0D2125216B5700862342 /* EventsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D2025216B5700862342 /* EventsViewModelProtocol.swift */; };
+		C1BC0D232521737100862342 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D222521737100862342 /* EventsTableViewController.swift */; };
 		E80838C9A717248A977506DE /* Pods_agendaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD38D307228A312147087C6 /* Pods_agendaTests.framework */; };
 		F5021F071786B304031A175F /* Pods_agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6A543C48B0A4E2688302E0 /* Pods_agenda.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +53,6 @@
 		C17637FF25202FFC00173471 /* agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C176380225202FFC00173471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C176380425202FFC00173471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C176380625202FFC00173471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C176380925202FFC00173471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C176380B2520300300173471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C176380E2520300300173471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +67,9 @@
 		C1BC0D152521462D00862342 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		C1BC0D1725214B9200862342 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		C1BC0D19252155A500862342 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C1BC0D1E2521656500862342 /* EventsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModel.swift; sourceTree = "<group>"; };
+		C1BC0D2025216B5700862342 /* EventsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModelProtocol.swift; sourceTree = "<group>"; };
+		C1BC0D222521737100862342 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		CAAE75F97603A405D415DC0F /* Pods_agendaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agendaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4320845FC42A909EA7C93F5 /* Pods-agendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaTests.release.xcconfig"; path = "Target Support Files/Pods-agendaTests/Pods-agendaTests.release.xcconfig"; sourceTree = "<group>"; };
 		EFD38D307228A312147087C6 /* Pods_agendaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agendaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,12 +151,11 @@
 		C176380125202FFC00173471 /* agenda */ = {
 			isa = PBXGroup;
 			children = (
+				C1BC0D1B252163E000862342 /* Support Files */,
 				C1BC0D142521459700862342 /* Service */,
 				C1BC0D112520C38000862342 /* Models */,
-				C176380225202FFC00173471 /* AppDelegate.swift */,
-				C176380425202FFC00173471 /* SceneDelegate.swift */,
-				C176380625202FFC00173471 /* ViewController.swift */,
-				C176380825202FFC00173471 /* Main.storyboard */,
+				C1BC0D1C252163F800862342 /* Modules */,
+				C1BC0D242521776F00862342 /* Common */,
 				C176380B2520300300173471 /* Assets.xcassets */,
 				C176380D2520300300173471 /* LaunchScreen.storyboard */,
 				C17638102520300300173471 /* Info.plist */,
@@ -194,6 +197,41 @@
 				C1BC0D1725214B9200862342 /* APIService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		C1BC0D1B252163E000862342 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C176380225202FFC00173471 /* AppDelegate.swift */,
+				C176380425202FFC00173471 /* SceneDelegate.swift */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		C1BC0D1C252163F800862342 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C1BC0D1D252164D600862342 /* Events */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C1BC0D1D252164D600862342 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				C176380825202FFC00173471 /* Main.storyboard */,
+				C1BC0D1E2521656500862342 /* EventsViewModel.swift */,
+				C1BC0D2025216B5700862342 /* EventsViewModelProtocol.swift */,
+				C1BC0D222521737100862342 /* EventsTableViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		C1BC0D242521776F00862342 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,11 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1BC0D132520C45C00862342 /* Event.swift in Sources */,
-				C176380725202FFC00173471 /* ViewController.swift in Sources */,
+				C1BC0D2125216B5700862342 /* EventsViewModelProtocol.swift in Sources */,
+				C1BC0D1F2521656500862342 /* EventsViewModel.swift in Sources */,
 				C1BC0D162521462D00862342 /* APIManager.swift in Sources */,
 				C176380325202FFC00173471 /* AppDelegate.swift in Sources */,
 				C1BC0D1825214B9200862342 /* APIService.swift in Sources */,
 				C176380525202FFC00173471 /* SceneDelegate.swift in Sources */,
+				C1BC0D232521737100862342 /* EventsTableViewController.swift in Sources */,
 				C1BC0D1A252155A500862342 /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
