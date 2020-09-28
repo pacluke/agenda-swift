@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nNz-cN-NlX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097.3"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Event Detail Table View Controller-->
+        <scene sceneID="EBa-ca-cdp">
+            <objects>
+                <tableViewController id="nNz-cN-NlX" customClass="EventDetailTableViewController" customModule="agenda" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hyN-c7-5wW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailImageTableViewCell" rowHeight="191" id="QPD-Av-9Eu" customClass="EventDetailImageTableViewCell" customModule="agenda" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="191"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QPD-Av-9Eu" id="1qh-ge-apH">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="191"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gHL-M0-OrG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="191"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="gHL-M0-OrG" firstAttribute="top" secondItem="1qh-ge-apH" secondAttribute="top" id="VJv-7D-aPE"/>
+                                        <constraint firstAttribute="bottom" secondItem="gHL-M0-OrG" secondAttribute="bottom" id="e4U-NZ-e4b"/>
+                                        <constraint firstAttribute="trailing" secondItem="gHL-M0-OrG" secondAttribute="trailing" id="hWj-Eu-Isa"/>
+                                        <constraint firstItem="gHL-M0-OrG" firstAttribute="leading" secondItem="1qh-ge-apH" secondAttribute="leading" id="rGJ-hP-j5s"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailTextTableViewCell" rowHeight="50" id="njX-DC-Wsb" customClass="EventDetailTextTableViewCell" customModule="agenda" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="219" width="414" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="njX-DC-Wsb" id="WqU-h4-Vd6">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EY9-aW-sGY">
+                                            <rect key="frame" x="20" y="11" width="374" height="28"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="28" id="eLn-PC-wbT"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="EY9-aW-sGY" firstAttribute="bottom" secondItem="WqU-h4-Vd6" secondAttribute="bottomMargin" id="8hS-mf-hdF"/>
+                                        <constraint firstItem="EY9-aW-sGY" firstAttribute="top" secondItem="WqU-h4-Vd6" secondAttribute="topMargin" id="KXH-94-btZ"/>
+                                        <constraint firstItem="EY9-aW-sGY" firstAttribute="trailing" secondItem="WqU-h4-Vd6" secondAttribute="trailingMargin" id="pFP-iF-v4M"/>
+                                        <constraint firstItem="EY9-aW-sGY" firstAttribute="leading" secondItem="WqU-h4-Vd6" secondAttribute="leadingMargin" id="u85-Kj-5nM"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nNz-cN-NlX" id="exC-6g-Jq3"/>
+                            <outlet property="delegate" destination="nNz-cN-NlX" id="bjt-gM-REy"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icw-EC-wPh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-37.681159420289859" y="17.410714285714285"/>
+        </scene>
+    </scenes>
+</document>
