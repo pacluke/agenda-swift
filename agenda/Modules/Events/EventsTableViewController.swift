@@ -24,7 +24,8 @@ class EventsTableViewController: UITableViewController {
     
     private func setupTableView() {
         self.tableView.separatorStyle = .none
-        
+//        self.tableView.backgroundColor = 
+        viewModel.fetchData()
     }
     
 }
@@ -49,14 +50,14 @@ extension EventsTableViewController {
         cell.title.text = viewModel.title[indexPath.row]
         cell.info.text = viewModel.info[indexPath.row]
         
-        return UITableViewCell()
+        return cell
     }
 }
 
 extension EventsTableViewController: EventsViewModelProtocol {
     
     func presentFetchedData() {
-        tableView.reloadData()
+        self.tableView.reloadData()
     }
     
     func presentNetworkError() {

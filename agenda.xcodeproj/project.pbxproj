@@ -25,6 +25,7 @@
 		C1BC0D2125216B5700862342 /* EventsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D2025216B5700862342 /* EventsViewModelProtocol.swift */; };
 		C1BC0D232521737100862342 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D222521737100862342 /* EventsTableViewController.swift */; };
 		C1BC0D2625217ECF00862342 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D2525217ECF00862342 /* EventsTableViewCell.swift */; };
+		C1BC0D282521833500862342 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0D272521833500862342 /* ColorPalette.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		C1BC0D2025216B5700862342 /* EventsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewModelProtocol.swift; sourceTree = "<group>"; };
 		C1BC0D222521737100862342 /* EventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
 		C1BC0D2525217ECF00862342 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		C1BC0D272521833500862342 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		C72E158E2BA775A6968D86EC /* Pods-agendaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaUITests.debug.xcconfig"; path = "Target Support Files/Pods-agendaUITests/Pods-agendaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1ACCAF2E7CFDF6E1CE2DFE2 /* Pods-agendaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agendaTests.release.xcconfig"; path = "Target Support Files/Pods-agendaTests/Pods-agendaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,6 +235,7 @@
 		C1BC0D242521776F00862342 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C1BC0D272521833500862342 /* ColorPalette.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				C176380525202FFC00173471 /* SceneDelegate.swift in Sources */,
 				C1BC0D232521737100862342 /* EventsTableViewController.swift in Sources */,
 				C1BC0D1A252155A500862342 /* People.swift in Sources */,
+				C1BC0D282521833500862342 /* ColorPalette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

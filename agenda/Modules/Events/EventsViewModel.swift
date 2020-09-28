@@ -41,7 +41,7 @@ class EventsViewModel {
             let date = Date(timeIntervalSince1970: $0.date)
             let dateFormatter = DateFormatter()
             dateFormatter.locale = NSLocale.current
-            dateFormatter.dateFormat = "dd MMM"
+            dateFormatter.dateFormat = "dd/MM"
             let strDate = dateFormatter.string(from: date)
             return strDate
         }
