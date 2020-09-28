@@ -18,6 +18,8 @@ class EventsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupTableView()
     }
     
     private func setupTableView() {
@@ -39,6 +41,14 @@ extension EventsTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: EventsTableViewCell.self), for: indexPath) as! EventsTableViewCell
+        
+        cell.date.text = viewModel.date[indexPath.row]
+        cell.hour.text = viewModel.hour[indexPath.row]
+        cell.title.text = viewModel.title[indexPath.row]
+        cell.info.text = viewModel.info[indexPath.row]
+        
         return UITableViewCell()
     }
 }
