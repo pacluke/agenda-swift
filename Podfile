@@ -8,6 +8,7 @@ target 'agenda' do
   # Pods for agenda
   pod 'Alamofire'
   pod 'Hero'
+  pod 'Kingfisher'
 
   target 'agendaTests' do
     inherit! :search_paths
