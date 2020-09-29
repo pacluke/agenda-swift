@@ -18,8 +18,8 @@ class EventsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupTableView()
+        
     }
     
     private func setupTableView() {
@@ -56,7 +56,7 @@ extension EventsTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        viewModel.navigateToDetail(index: indexPath.row)
     }
 }
 
@@ -68,5 +68,9 @@ extension EventsTableViewController: EventsViewModelProtocol {
     
     func presentNetworkError() {
         
+    }
+    
+    func navigateToDetail(detail: EventDetailTableViewController) {
+        self.navigationController?.pushViewController(detail, animated: true)
     }
 }

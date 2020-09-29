@@ -31,14 +31,14 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="GPk-sD-CTX"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6s-GM-g3w">
-                                                    <rect key="frame" x="86" y="27" width="280" height="43"/>
+                                                    <rect key="frame" x="86" y="36" width="280" height="34"/>
                                                     <string key="text">Description description description description description description description description description description description description</string>
-                                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -46,17 +46,17 @@
                                                     <rect key="frame" x="0.0" y="-2" width="78" height="82"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10/09" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHO-Qt-Pch">
-                                                            <rect key="frame" x="8" y="18" width="62" height="28"/>
-                                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                                            <rect key="frame" x="8" y="22" width="62" height="21.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EaR-fD-HYr">
-                                                            <rect key="frame" x="8" y="48.5" width="62" height="15"/>
+                                                            <rect key="frame" x="8" y="46" width="62" height="15"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="15" id="RfA-1E-vNy"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -67,7 +67,7 @@
                                                         <constraint firstItem="uHO-Qt-Pch" firstAttribute="leading" secondItem="RA7-I4-04h" secondAttribute="leadingMargin" id="QKH-ej-wTi"/>
                                                         <constraint firstItem="EaR-fD-HYr" firstAttribute="top" secondItem="uHO-Qt-Pch" secondAttribute="bottom" constant="2.5" id="ZV3-Kb-a4y"/>
                                                         <constraint firstItem="uHO-Qt-Pch" firstAttribute="trailing" secondItem="RA7-I4-04h" secondAttribute="trailingMargin" id="kK8-de-78G"/>
-                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="top" secondItem="RA7-I4-04h" secondAttribute="top" constant="18" id="kiL-kJ-PEk"/>
+                                                        <constraint firstItem="uHO-Qt-Pch" firstAttribute="top" secondItem="RA7-I4-04h" secondAttribute="top" constant="22" id="kiL-kJ-PEk"/>
                                                         <constraint firstItem="uHO-Qt-Pch" firstAttribute="leading" secondItem="EaR-fD-HYr" secondAttribute="leading" id="oUb-9f-X1t"/>
                                                         <constraint firstAttribute="width" constant="78" id="pCy-8X-aUX"/>
                                                         <constraint firstItem="uHO-Qt-Pch" firstAttribute="trailing" secondItem="EaR-fD-HYr" secondAttribute="trailing" id="vtJ-oR-F9b"/>
@@ -85,7 +85,7 @@
                                                 <constraint firstItem="r6s-GM-g3w" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leading" constant="86" id="Y9W-pq-QYW"/>
                                                 <constraint firstItem="RA7-I4-04h" firstAttribute="leading" secondItem="8kR-X3-VdB" secondAttribute="leadingMargin" constant="-8" id="b6e-sv-aOj"/>
                                                 <constraint firstAttribute="trailing" secondItem="r6s-GM-g3w" secondAttribute="trailing" constant="8" id="dFD-JY-W6V"/>
-                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="top" secondItem="vCJ-Gp-fZT" secondAttribute="bottom" constant="-1" id="v7Q-Cu-5SW"/>
+                                                <constraint firstItem="r6s-GM-g3w" firstAttribute="top" secondItem="vCJ-Gp-fZT" secondAttribute="bottom" constant="8" id="v7Q-Cu-5SW"/>
                                             </constraints>
                                         </view>
                                     </subviews>

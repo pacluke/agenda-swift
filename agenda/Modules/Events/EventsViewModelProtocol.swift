@@ -11,4 +11,5 @@ import Foundation
 protocol EventsViewModelProtocol {
     func presentFetchedData()
     func presentNetworkError()
+    func navigateToDetail(detail: EventDetailTableViewController)
 }

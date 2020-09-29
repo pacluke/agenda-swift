@@ -10,6 +10,29 @@ import UIKit
 
 class EventDetailTextTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var eventText: UILabel!
+    
+    public var cellType: EventDetailCellType = .time {
+        didSet {
+            
+        }
+    }
+    
+    private func updateCellType() {
+        switch cellType {
+            case .time:
+                break
+            case .title:
+                break
+            case .description:
+                break
+            case .location:
+                break
+            default:
+                break
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

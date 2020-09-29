@@ -33,6 +33,9 @@
                                         <constraint firstItem="gHL-M0-OrG" firstAttribute="leading" secondItem="1qh-ge-apH" secondAttribute="leading" id="rGJ-hP-j5s"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="eventImage" destination="gHL-M0-OrG" id="FdW-y6-UM5"/>
+                                </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventDetailTextTableViewCell" rowHeight="50" id="njX-DC-Wsb" customClass="EventDetailTextTableViewCell" customModule="agenda" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="219" width="414" height="50"/>
@@ -46,7 +49,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="28" id="eLn-PC-wbT"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -58,6 +61,9 @@
                                         <constraint firstItem="EY9-aW-sGY" firstAttribute="leading" secondItem="WqU-h4-Vd6" secondAttribute="leadingMargin" id="u85-Kj-5nM"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="eventText" destination="EY9-aW-sGY" id="z85-0q-wr3"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

@@ -68,4 +68,11 @@ class EventsViewModel {
         }
     }
     
+    public func navigateToDetail(index: Int) {
+        let detailViewModel = EventDetailViewModel(event: events[index])
+        let detailVC = UIStoryboard(name: "EventDetail", bundle: nil).instantiateInitialViewController() as! EventDetailTableViewController
+        detailVC.viewModel = detailViewModel
+        delegate?.navigateToDetail(detail: detailVC)
+    }
+    
 }

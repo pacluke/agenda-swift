@@ -12,7 +12,15 @@ class EventDetailViewModel {
     private var event: Event
     public var delegate: EventsViewModelProtocol?
     
-    public var numberOfItems: Int = 3
+    public let cellType: [EventDetailCellType] = [
+        .image,
+        .time,
+        .location,
+        .title,
+        .description
+    ]
+    
+    public var numberOfItems: Int = 4
     
     public init(event: Event) {
         self.event = event
