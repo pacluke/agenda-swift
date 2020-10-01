@@ -7,27 +7,29 @@
 //
 
 import UIKit
+import Hero
 
 class EventDetailTextTableViewCell: UITableViewCell {
 
     @IBOutlet weak var eventText: UILabel!
     
-    public var cellType: EventDetailCellType = .time {
-        didSet {
-            
-        }
-    }
-    
-    private func updateCellType() {
+    public func setCellType(cellType: EventDetailCellType) {
         switch cellType {
             case .time:
-                break
+                eventText.textColor = ColorPalette.rasingBlack.color()
+                backgroundColor = ColorPalette.gainsboro.color()
+                eventText.font = UIFont.boldSystemFont(ofSize: 18.0)
             case .title:
-                break
+                eventText.textColor = ColorPalette.rasingBlack.color()
+                backgroundColor = ColorPalette.lightSteelBlue.color()
+                eventText.font = UIFont.boldSystemFont(ofSize: 20.0)
             case .description:
-                break
+                eventText.textColor = ColorPalette.gainsboro.color()
+                backgroundColor = ColorPalette.charcoal.color()
+                eventText.font = UIFont.systemFont(ofSize: 12.0)
             case .location:
-                break
+                eventText.textColor = ColorPalette.rasingBlack.color()
+                eventText.font = UIFont.systemFont(ofSize: 15.0)
             default:
                 break
         }
@@ -36,6 +38,7 @@ class EventDetailTextTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.hero.isEnabled = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

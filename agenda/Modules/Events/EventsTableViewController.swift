@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Hero
 
 class EventsTableViewController: UITableViewController {
     
@@ -19,7 +20,7 @@ class EventsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        
+        self.hero.isEnabled = true
     }
     
     private func setupTableView() {
@@ -27,6 +28,7 @@ class EventsTableViewController: UITableViewController {
         self.tableView.backgroundColor = ColorPalette.charcoal.color()
         self.navigationController?.navigationBar.barTintColor = ColorPalette.charcoal.color()
         self.title = "Events"
+        self.tableView.hero.modifiers = [.translate(y:100)]
         viewModel.fetchData()
     }
     
@@ -51,6 +53,9 @@ extension EventsTableViewController {
         cell.hour.text = viewModel.hour[indexPath.row]
         cell.title.text = viewModel.title[indexPath.row]
         cell.info.text = viewModel.info[indexPath.row]
+        
+        cell.dateView.heroID = "date\(viewModel.id[indexPath.row])"
+        cell.cardView.heroID = "card\(viewModel.id[indexPath.row])"
         
         return cell
     }

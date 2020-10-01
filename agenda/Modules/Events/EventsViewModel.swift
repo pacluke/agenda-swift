@@ -18,6 +18,7 @@ class EventsViewModel {
     public var hour: [String]
     public var image: [String]
     public var info: [String]
+    public var id: [String]
     
     public var numberOfItems: Int {
         return events.count
@@ -30,12 +31,14 @@ class EventsViewModel {
         self.image = []
         self.info = []
         self.hour = []
+        self.id = []
     }
     
     private func updateEventsData() {
         self.title = events.map{$0.title}
         self.image = events.map{$0.image}
         self.info = events.map{$0.info}
+        self.id = events.map{$0.id}
         
         self.date = events.map {
             let date = Date(timeIntervalSince1970: $0.date)
@@ -72,6 +75,8 @@ class EventsViewModel {
         let detailViewModel = EventDetailViewModel(event: events[index])
         let detailVC = UIStoryboard(name: "EventDetail", bundle: nil).instantiateInitialViewController() as! EventDetailTableViewController
         detailVC.viewModel = detailViewModel
+        detailVC.tableView.hero.modifiers = [.translate(y:100)]
+        detailVC.hero.isEnabled = true
         delegate?.navigateToDetail(detail: detailVC)
     }
     
